@@ -8,7 +8,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    min-height: 70vh;
+    min-height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -83,7 +83,23 @@ footer{
     width: 100%;
     height: 10vh;
 }
+::-webkit-scrollbar {
+    background-color: #222;
+  }
+  
+  scrollbar {
+    background-color: #222;
+  }
+  
+  ::-moz-scrollbar {
+    background-color: #222;
+  }
 
+  ::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 0px;
+
+  }
 body ,html{
     margin: 0;
     padding: 0;
