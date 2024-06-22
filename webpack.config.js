@@ -4,14 +4,14 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: './src/index.js',
     output: {
-        filename: 'webby.js',
-        path: path.resolve(__dirname, 'dist'),
+        filename: 'index.js',
+        path: path.resolve(__dirname, 'docs'),
         clean: true,
     },
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html',
-            filename: 'webby.html',
+            filename: 'index.html',
             inject: 'body',
         }),
     ],
